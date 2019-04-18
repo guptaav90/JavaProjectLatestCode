@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CRMPROLoginPage">
+
+<test name="CRMPROLoginPageTest">
+
+<parameter name="Browser" value="chrome">
+</parameter>
+
+<parameter name="Url" value="https://www.crmpro.com">
+</parameter>
+
+<parameter name="Username" value="guptaav90">
+</parameter>
+
+<parameter name="UsernameWebObj" value="username">
+</parameter>
+
+<parameter name="PasswordWebObj" value="password">
+</parameter>
+
+<parameter name="Password" value="cspl@2020">
+</parameter>
+
+<classes>
+
+<class name="TestNG_ParametersAnnotation.TestNG_ParametersAnnotation"></class>
+
+</classes>
+</test>
+</suite>
+

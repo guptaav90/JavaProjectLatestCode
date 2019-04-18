@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRMPROLoginPage]">
+  <test thread-count="5" name="CRMPROLoginPageTest(failed)">
+    <parameter name="Username" value="guptaav90"/>
+    <parameter name="UsernameWebObj" value="username"/>
+    <parameter name="PasswordWebObj" value="password"/>
+    <parameter name="Url" value="https://www.crmpro.com"/>
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="Password" value="cspl@2020"/>
+    <classes>
+      <class name="TestNG_ParametersAnnotation.TestNG_ParametersAnnotation">
+        <methods>
+          <include name="CRMPROLoginPageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG_ParametersAnnotation.TestNG_ParametersAnnotation -->
+    </classes>
+  </test> <!-- CRMPROLoginPageTest(failed) -->
+</suite> <!-- Failed suite [CRMPROLoginPage] -->
